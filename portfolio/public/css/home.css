@@ -1,0 +1,312 @@
+
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.top {
+    position: relative;
+    width: 100%;
+    background-color: #ececec;
+    border: 1px solid #3c5674;
+}
+
+
+
+.top .excerpt {
+    position: absolute;
+    text-align: center;
+    padding: 2% 2% !important;
+    background-color: rgba(0, 0, 0, 0.32);
+    min-height: 170px;
+    margin: auto;
+    top: 27%;
+    left: 0 !important;
+    right: 0;
+}
+
+.top .excerpt h1 {
+    font-size: 3.8em;
+    font-weight: 700;
+    font-family: inherit;
+    color: white;
+}
+
+.top .excerpt h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 4%;
+}
+
+.home {
+    background: url(http://i65.tinypic.com/ravsph.png) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+}
+#button_discover {
+    color: black;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    background-color: #fec00f;
+    text-decoration: none;
+    color: white;
+}
+
+#button_discover:hover {
+    background-color: white;
+    transition-duration: 0.8s;
+}
+
+
+
+/*
+Nav
+*/
+
+.nav {
+    padding: 0 0rem !important;
+}
+
+.nav nav {
+    background-color: #fec00f;
+}
+
+.side-nav {
+    background-color: #fec00f !important;
+}
+
+.nav ul a {
+    color: white;
+}
+
+.btn {
+    background-color: #fec00f !important;
+}
+
+.brand-logo{
+    font-family: Helvetica Narrow, sans-serif
+    font-weight: 800;
+}
+
+.brand-logo span{
+    font-weight:300;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+/*
+about me
+*/
+
+.about-me {
+    background-color: #337ab7;
+}
+
+.about-me .text-about-me {
+    color:white;
+    padding: 3% 0% !important;
+}
+
+.about-me .text-about-me h2 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.about-me .text-about-me p{
+    font-size: 22Px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #fec00f;
+}
+
+.separate {
+    max-width: 100px;
+    font-size: 85%;
+}
+
+
+/*
+skils
+
+*/
+
+.skills {
+    padding: 3% 0% !important;
+    display:none;
+
+}
+
+.skills h2 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.skills .php, .js {
+
+}
+
+.skills p {
+    text-align: center;
+}
+
+.skills img {
+    margin-right: 6%;
+    margin-left: 6%;
+    transition-duration: 0.6s;
+}
+
+
+.skills img:hover {
+    transform: scale(1.25);
+    transition-duration: 0.6s;
+}
+
+.border-rad {
+    border-radius: 17px;
+}
+
+/*
+projects
+*/
+
+.projects {
+    min-height: 1000px;
+    padding: 0% 0% !important;
+
+    background-color: white;
+
+}
+
+.projects h2 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    margin-top: 6%;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+.grid-image {
+    padding: 0 0 !important;
+
+}
+
+.grid-image .col{
+    padding: 0 0 !important;
+    overflow: hidden;
+}
+
+
+/*
+contact
+*/
+
+
+.contact {
+    padding: 3% 0% !important;
+    color: black;
+}
+
+.contact h2 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #337ab7 !important;
+    box-shadow: 0 1px 0 0 #337ab7 !important;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #337ab7 !important;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    border-bottom: 1px solid black !important;
+}
+
+.input-field label {
+    color: black !important;
+}
+
+/*
+end
+*/
+
+
+.end {
+    padding: 6% 0% !important;
+
+    background-color: #337ab7;
+    margin-bottom: -2%;
+
+}
+
+
+.end p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.end .all-socials {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.end p span {
+    font-weight: 700;
+}
+
+.end .dev {
+    font-size: 20px;
+}
+
+.end .all-socials i{
+    transition-duration: 0.3s;
+}
+
+.end .all-socials i:hover {
+    color: black !important;
+    transition-duration: 0.3s;
+}
+
+.end .copy {
+    font-size: 12px;
+    color: #afafaf;
+}
